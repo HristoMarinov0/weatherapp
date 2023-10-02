@@ -26,7 +26,7 @@ function App() {
 
   return (
     <Suspense fallback={<CircularProgress />}>
-      <div className="content">
+      <div className="container">
         <h1 className="heading">Weather App</h1>
         {pathname === "/" ? (
           <>
