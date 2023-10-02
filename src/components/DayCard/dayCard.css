@@ -1,0 +1,43 @@
+article {
+    background: linear-gradient(178deg, rgba(201, 234, 252, 0.51) 14.9%, rgba(139, 192, 216, 0.73) 80%);
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    transition: all .25s ease-in;
+    height: 16.5rem;
+}
+
+article:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.content {
+    padding: 5px;
+}
+
+.date {
+    font-size: 24px;
+    color: rgb(214, 205, 205);
+    text-align: center;
+}
+
+.temp {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 5px;
+}
+
+.description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.description {
+    font-size: 24px;
+    font-weight: bolder;
+    color:rgb(5, 136, 146);
+    text-align: center;
+}
